@@ -36,3 +36,18 @@ console.log(getGrade(82));
 console.log(getGrade(56));
 
 //STEP 3
+function hasPassingGrade(score) {
+  const grade = getGrade(score)
+  
+  if (grade !== "F") {
+    return true 
+  } else {
+    return false
+  }
+}
+
+console.log(hasPassingGrade(100));
+console.log(hasPassingGrade(53));
+console.log(hasPassingGrade(87));
+
+//STEP 4
