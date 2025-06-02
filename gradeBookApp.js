@@ -51,3 +51,13 @@ console.log(hasPassingGrade(53));
 console.log(hasPassingGrade(87));
 
 //STEP 4
+function studentMsg(totalScores, studentScore) {
+  let total = getAverage(totalScores)
+  let student = getGrade(studentScore)
+  if (hasPassingGrade(studentScore)) {
+    return "Class average: " + total +". Your grade: " + student +". You passed the course.";
+  } else {
+    return "Class average: " + total +". Your grade: " + student +". You failed the course.";
+  }
+}
+console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37));
