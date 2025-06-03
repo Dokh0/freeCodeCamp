@@ -1,3 +1,5 @@
+//Learn Basic JavaScript by Building a Role Playing Game
+
 let xp = 0;
 let health = 100;
 let gold = 50;
